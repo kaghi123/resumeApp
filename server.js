@@ -13,6 +13,8 @@ app.get('/resume', function (req, res) {
     console.log(docs);
     res.json(docs);
   });
+
+  
 });
 
 app.listen(8080);
